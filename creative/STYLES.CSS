@@ -1,0 +1,354 @@
+body, html {
+    height: 100%;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url('https://ununsplash.imgix.net/photo-1427434846691-47fc561d1179?fit=crop&fm=jpg&h=700&q=75&w=1050');
+
+    /* Full height */
+    height: 100%; 
+    margin: -20px 0px 0px 0px;
+    text-align: center;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tim h1{
+    padding: 60px 0px 0px 0px;
+    color: white;
+    font-size: 90px;
+    font-family: 'Josefin Slab', serif;
+}
+.tim h2{
+    padding: 10px 0px 0px 0px;
+    color: white;
+    font-size: 26px;
+}
+h2{
+	text-align: center;
+	font-size: 15px solid #333333;
+}
+hr{
+	border-color: #C5A47E;
+	border-width: 2px;
+	width: 15%;
+}
+p{
+	color: #777777;
+	font-size: 20px;
+	margin: 14px 273px 16px 240px;
+	text-align: center;
+}
+.about p{
+    color: #777777;
+	font-size: 23px;
+	margin: 20px -86px 0px 60px;
+	text-align: center;
+}
+.about h2{
+    font-size: 36px;
+    margin: 40px 0px 0px 140px;
+}
+.about{
+	margin: 55px 258px 47px 136px;
+}
+.about hr{
+	margin: 13px 0px 22px 454px;
+	width: 214px;
+}
+.about img{
+	width: 300px;
+	height: 298px;
+	margin: 42px 81px 35px 69px;
+	padding: 0px 0px 7px 0px;
+}
+.famous{
+	margin: 50px 188px 0px 100px;
+}
+.famous img{
+	width: 351px;
+	height: 261px;
+	opacity: 1.0;
+	margin: 20px 0px 5px 41px;
+	cursor: pointer;
+}
+.famous img:hover {
+   opacity: 0.5;
+}
+.famous hr{
+	width: 25%;
+	margin: 16px 0px 20px 462px;
+}
+.famous h4{
+	font-size: 19px;
+	color: #777777;
+	margin: 7px 0px 0px 144px;
+}
+.famous h1{
+	text-align: center;
+	color: #333333;
+	margin: 8px -95px -1px 5px;
+	font-size: 34px;
+}
+.famous h2{
+	text-align: center;
+	color: #333333;
+	margin: 8px -95px -1px 5px;
+	font-size: 28px;
+}
+.famous p{
+   color: #777777;
+	font-size: 18px;
+	margin: 10px -30px -8px 60px;
+	text-align: center;
+}
+.famous button{
+    color: grey;
+    font-size: 15px;
+    opacity: 1.0;
+    border-radius: 20px;
+    margin: 34px -84px 20px 87px;  
+}
+.famous button:hover {
+    opacity: 0.8;
+}
+.what {
+	margin: 0px 160px 2px 120px;
+}
+.what p{
+    color: #777777;
+	font-size: 17px;
+	margin: -20px -36px 60px 40px;
+	text-align: center;
+}
+.what h2{
+	text-align: center;
+	margin: 50px -70px 14px -13px;
+    font-size: 40px; 
+    color: #333333;
+}
+.what h3{
+	text-align: center;
+	margin: 0px 0px 30px 84px;
+    font-size: 30px; 
+    color: #333333;
+}
+.what button{
+    color: grey;
+    font-size: 15px;
+    border-radius: 20px;
+    margin: -29px -101px 24px 106px;  
+}
+.what img{
+    opacity: 1.0;
+	width: 80%;
+	cursor: pointer;
+	margin: 5px 5px 5px 5px;
+}
+.what img:hover {
+    opacity: 0.5;
+}
+.what h4{
+	margin: 18px 0px 17px 160px;
+}
+.what hr{
+	margin: 0px 0px 36px 486px;
+}
+.what1{
+	margin: 140px 160px 2px 90px;
+}
+.what1 p{
+    color: #777777;
+	font-size: 17px;
+	margin: 15px -48px 0px 39px;
+	text-align: center;
+}
+.what1 h5{
+	color: #777777;
+	font-size: 20px;
+	margin: 11px 64px -9px 136px;
+	text-align: center;
+}
+.what1 h2{
+	text-align: center;
+	margin: 16px -137px 2px -41px;
+    font-size: 24px;
+    color: #333333;
+}
+.what1 h1{
+	color: #333333;
+	font-size: 32px;
+	margin: 90px 5px 5px 80px;
+	text-align: center;
+}
+.what1 hr{
+    width: 18%;
+	margin: 17px 0px 22px 486px;
+}
+.what1 button{
+    color: grey;
+    font-size: 15px;
+    opacity: 1.0;
+    border-radius: 20px;
+    margin: 23px 0px 39px 148px;  
+}
+.what1 button: hover{
+    opacity: 0.5;
+}
+.what1 h4{
+	margin: 18px 0px -8px 88px;
+	font-size: 20px;
+	color: #777777;
+}
+.what1 img{
+	width: 363px;
+	height: 269px;
+	opacity: 1.0;
+	margin: 25px 0px 3px 37px; 
+	cursor: pointer;
+}
+.what1 img:hover {
+    opacity: 0.5;
+}
+.people{
+	margin: 80px 2px 2px 18px;
+}
+.people ul{
+	margin: 50px 0px 0px 430px;
+}
+.people h2{
+	color: #333333;
+	font-size: 35px;
+	margin: 40px 5px 5px 5px;
+}
+.fa {
+  padding: 7px 0px 8px 1px;
+  font-size: 17px;
+  width: 24px;
+  text-align: center;
+  text-decoration: none;
+  margin: 0px -128px 0px 134px;
+  border-radius: 10px;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-dribbble {
+  background: #ea4c89;
+  color: white;
+}
+.team{
+	margin: 38px 145px 2px 72px;
+}
+.team img{
+	width: 147px;
+	height: 135px;
+	opacity: 1.0;
+	cursor: pointer;
+	margin: 13px 0px 17px 106px;
+}
+.team img:hover {
+    opacity: 0.5;
+}
+.team p{
+	font-size: 15px;
+	margin: 0px -40px 0px 60px;
+}
+.team h4{
+	margin: 3px 0px 11px 100px;
+	font-size: 17px;
+}
+.team hr{
+	width: 184px;
+	margin: 25px 0px 22px 90px;
+}
+.hr{
+	margin: 0px 0px 0px 420px;
+}
+.team h2{
+    text-align: center;
+    color: #333333;
+    font-size: 36px;
+    margin: 80px -62px 20px 4px; 
+}
+.numbers h2{
+    text-align: center;
+    font-size: 33px;
+    color: #333333;
+    margin: 94px 18px 0px 18px; 
+}
+.numbers h4{
+	text-align: center;
+	font-size: 20px;
+	margin: 24px 2px 2px 2px; 
+}
+.numbers h6{
+	text-align: center;
+	font-size: 27px;
+	color: #C5A47E;
+	margin: 14px 2px 2px 2px; 
+}
+.numbers h5{
+	text-align: center;
+	font-size: 19px;
+	margin: 12px 2px 2px 2px;
+}
+.footer{
+	cursor: pointer;
+	background-color: black;
+	color:#777777;
+	padding: 4px 0px 0px 2px;
+	margin: 124px 0px 0px 0px;
+}
+.footer h2{
+	font-size: 15px;
+    padding: 0px 0px 8px 80px;
+}
+.footer .fa {
+    padding: 7px 0px 7px 0px;
+    font-size: 17px;
+    width: 31px;
+    text-align: center;
+    text-decoration: none;
+    margin: 12px 0px 0px 2px; 
+}
+.footer span{
+	color: white;
+	font-size: 15px;
+}
+.map{
+	margin: 200px 0px -128px 1px;
+}
+.navbar{
+	border: 0;
+	margin-top: 0px;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+.navbar .navbar-brand{
+	font-weight: 24px;
+	padding-left: 50px;
+	padding-right: 50px;
+	letter-spacing: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+.creative h1,h4{
+	text-align: center;
+    font-size: 28px;
+}
